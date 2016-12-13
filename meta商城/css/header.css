@@ -1,0 +1,406 @@
+* {
+  margin: 0px;
+  padding: 0px; }
+
+a {
+  cursor: pointer;
+  color: unset;
+  text-decoration: none; }
+
+button {
+  outline: none; }
+
+ul, ol {
+  list-style: none; }
+
+header .topBox {
+  width: 1347px;
+  margin: 0px auto; }
+  header .topBox .top {
+    color: #808080;
+    height: 109px; }
+    header .topBox .top .topLeft {
+      width: 1040px;
+      float: left;
+      position: relative; }
+      header .topBox .top .topLeft .left {
+        font-size: 20.8px;
+        margin-top: 10px;
+        float: left; }
+      header .topBox .top .topLeft .right {
+        margin-top: 10px;
+        font-size: 16.6px;
+        float: right; }
+        header .topBox .top .topLeft .right span {
+          width: 0px;
+          height: 18px;
+          border: 1px solid #808080;
+          margin: 0px 6px; }
+      header .topBox .top .topLeft .right2 {
+        width: 105px;
+        border: 1px solid #d3d2d2;
+        border-top: none;
+        display: none;
+        margin-top: 10px;
+        font-size: 16.6px;
+        float: right;
+        text-align: center;
+        box-shadow: 0px 0px 5px 2px gray;
+        position: absolute;
+        right: 0; }
+        header .topBox .top .topLeft .right2 div {
+          height: 30px;
+          line-height: 30px; }
+        header .topBox .top .topLeft .right2 ul {
+          width: 105px;
+          padding-bottom: 15px;
+          top: 30px;
+          z-index: 100; }
+          header .topBox .top .topLeft .right2 ul li {
+            height: 35px;
+            margin-bottom: 5px;
+            line-height: 35px; }
+    header .topBox .top .topRight {
+      width: 140px;
+      height: 109px;
+      padding: 0px 46px 0px 39px;
+      font-size: 16.6px;
+      float: right;
+      position: relative;
+      border-left: 1px solid transparent;
+      border-right: 1px solid transparent; }
+      header .topBox .top .topRight span {
+        float: left;
+        margin-top: 10px; }
+      header .topBox .top .topRight .shopbox {
+        width: 34px;
+        height: 39px;
+        float: right;
+        margin-right: 25px;
+        background: url("../images/shopbox.png"); }
+      header .topBox .top .topRight .shopbox2 {
+        width: 86px;
+        height: 109px;
+        float: right;
+        position: relative;
+        text-align: center;
+        background: url("../images/shopbox2.png");
+        display: none; }
+        header .topBox .top .topRight .shopbox2 .count {
+          width: 19px;
+          height: 19px;
+          border-radius: 50%;
+          position: absolute;
+          top: 30px;
+          left: 50%;
+          margin-left: -10px;
+          background: white;
+          color: #9d6f89;
+          line-height: 19px;
+          border: 1px solid #9d6f89; }
+      header .topBox .top .topRight .shopbox3 {
+        width: 448px;
+        position: absolute;
+        z-index: 2;
+        background: white;
+        top: 43px;
+        left: auto;
+        right: -1px;
+        border: 1px solid #d3d2d2;
+        padding: 0px 25px 25px;
+        display: none; }
+        header .topBox .top .topRight .shopbox3 span {
+          float: none; }
+        header .topBox .top .topRight .shopbox3 ul li {
+          border-bottom: 2px solid #d3d2d2;
+          padding: 30px 0px;
+          overflow: hidden; }
+          header .topBox .top .topRight .shopbox3 ul li img {
+            float: left;
+            margin-right: 40px; }
+          header .topBox .top .topRight .shopbox3 ul li .shopitem {
+            width: 250px;
+            float: left; }
+            header .topBox .top .topRight .shopbox3 ul li .shopitem .title {
+              height: 40px;
+              line-height: 40px; }
+            header .topBox .top .topRight .shopbox3 ul li .shopitem .mingxi {
+              margin-top: 10px;
+              overflow: hidden; }
+              header .topBox .top .topRight .shopbox3 ul li .shopitem .mingxi .size {
+                float: left;
+                margin-right: 55px; }
+                header .topBox .top .topRight .shopbox3 ul li .shopitem .mingxi .size div {
+                  height: 40px;
+                  line-height: 40px; }
+              header .topBox .top .topRight .shopbox3 ul li .shopitem .mingxi .num {
+                float: left;
+                margin-right: 55px; }
+                header .topBox .top .topRight .shopbox3 ul li .shopitem .mingxi .num div {
+                  height: 40px;
+                  line-height: 40px; }
+                header .topBox .top .topRight .shopbox3 ul li .shopitem .mingxi .num .value2 input {
+                  width: 30px;
+                  height: 30px;
+                  text-align: center;
+                  border: 2px solid #d3d2d2; }
+                header .topBox .top .topRight .shopbox3 ul li .shopitem .mingxi .num .value2 .minus {
+                  margin-left: 5px; }
+              header .topBox .top .topRight .shopbox3 ul li .shopitem .mingxi .sum {
+                float: left; }
+                header .topBox .top .topRight .shopbox3 ul li .shopitem .mingxi .sum div {
+                  height: 40px;
+                  line-height: 40px; }
+          header .topBox .top .topRight .shopbox3 ul li .delete {
+            width: 30px;
+            height: 30px;
+            text-align: center;
+            line-height: 30px;
+            float: right;
+            margin-right: 20px;
+            font-weight: bold;
+            color: #d3d2d2;
+            font-size: 25px; }
+        header .topBox .top .topRight .shopbox3 .shopjoin {
+          height: 55px;
+          line-height: 55px;
+          font-size: 20.83px;
+          text-align: center; }
+        header .topBox .top .topRight .shopbox3 button {
+          width: 440px;
+          height: 44px;
+          color: white;
+          background: #9d6f89;
+          font-size: 25px;
+          border: none; }
+  header .topBox .logo {
+    width: 240px;
+    height: 70px;
+    margin: 0px auto 0px;
+    background: url("../images/logo.png"); }
+  header .topBox .nav {
+    width: 1347px;
+    margin-top: 35px;
+    overflow: hidden; }
+    header .topBox .nav ul {
+      width: 705px;
+      height: 46px;
+      margin: 0px auto;
+      overflow: hidden; }
+      header .topBox .nav ul li {
+        height: 46px;
+        line-height: 46px;
+        float: left;
+        font-size: 20.83px;
+        margin-right: 123px; }
+      header .topBox .nav ul .last {
+        margin-right: 0px; }
+    header .topBox .nav ol {
+      width: 860px;
+      height: 70px;
+      margin: 0px auto;
+      overflow: hidden;
+      display: none; }
+      header .topBox .nav ol li {
+        width: 85px;
+        float: left;
+        text-align: center;
+        margin-right: 170px;
+        font-size: 20.83px;
+        color: #b1afaf; }
+        header .topBox .nav ol li .point {
+          width: 39px;
+          height: 39px;
+          border-radius: 50%;
+          margin: 0px auto 10px;
+          background: #b1afaf;
+          text-align: center;
+          line-height: 39px;
+          color: white; }
+      header .topBox .nav ol li:nth-last-child(1) {
+        margin-right: 0px; }
+
+header .cover {
+  position: absolute;
+  top: 0px;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.6);
+  display: none; }
+  header .cover .coverbox {
+    width: 600px;
+    height: 764px;
+    margin: 120px auto;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-top: -382px;
+    margin-left: -300px;
+    display: none; }
+    header .cover .coverbox .join {
+      height: 624px;
+      background: white;
+      padding: 70px 40px 0px;
+      text-align: center; }
+      header .cover .coverbox .join .plan {
+        height: 135px;
+        line-height: 135px;
+        font-size: 37.5px; }
+      header .cover .coverbox .join p {
+        height: 160px;
+        line-height: 22px;
+        font-size: 18.75px; }
+      header .cover .coverbox .join .main {
+        height: 30px;
+        line-height: 30px;
+        text-align: left;
+        font-size: 18.75px; }
+      header .cover .coverbox .join input {
+        width: 520px;
+        height: 40px;
+        border: 1px solid lightgray; }
+      header .cover .coverbox .join .create {
+        width: 520px;
+        height: 50px;
+        margin-top: 20px;
+        background: #c4a9b8;
+        color: white;
+        font-size: 20.83px; }
+      header .cover .coverbox .join button {
+        width: 520px;
+        height: 45px;
+        margin-top: 20px;
+        font-size: 18.75px; }
+        header .cover .coverbox .join button img {
+          float: left; }
+      header .cover .coverbox .join .weibo {
+        background: #f1ead8; }
+    header .cover .coverbox .reged {
+      height: 55px;
+      margin-top: 15px;
+      background: black;
+      color: white;
+      font-size: 18.75px;
+      text-align: center;
+      line-height: 55px; }
+      header .cover .coverbox .reged a {
+        text-decoration: underline; }
+  header .cover .coverbox2 {
+    width: 521px;
+    height: 583px;
+    padding: 0px 37px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-top: -291px;
+    margin-left: -297px;
+    background: white;
+    font-size: 20.83px;
+    display: none; }
+    header .cover .coverbox2 .title {
+      height: 110px;
+      line-height: 110px;
+      text-align: center;
+      font-size: 33.33px; }
+    header .cover .coverbox2 .name {
+      height: 44px;
+      line-height: 44px;
+      margin-top: 57px; }
+    header .cover .coverbox2 input {
+      width: 521px;
+      height: 40px;
+      margin-bottom: 13px;
+      outline: none; }
+    header .cover .coverbox2 .password {
+      height: 44px;
+      line-height: 44px; }
+    header .cover .coverbox2 .tel {
+      height: 44px;
+      line-height: 44px; }
+    header .cover .coverbox2 .loading {
+      width: 521px;
+      height: 49px;
+      margin-top: 33px;
+      background: #c4a9b8;
+      text-align: center;
+      font-size: 25px;
+      color: white;
+      line-height: 49px; }
+  header .cover .welcome {
+    width: 600px;
+    height: 764px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -382px;
+    margin-left: -300px;
+    display: none; }
+    header .cover .welcome .come {
+      width: 523px;
+      height: 694px;
+      padding: 0px 39px;
+      background: white; }
+      header .cover .welcome .come .title {
+        height: 115px;
+        line-height: 115px;
+        text-align: center;
+        font-size: 25px; }
+      header .cover .welcome .come .img {
+        width: 163px;
+        height: 47px;
+        background: url("../images/welcomeTitle.png");
+        margin: 15px auto 0px; }
+      header .cover .welcome .come button {
+        width: 523px;
+        text-align: center;
+        font-size: 18.75px; }
+        header .cover .welcome .come button div {
+          float: left;
+          margin-left: 25px; }
+      header .cover .welcome .come .weibo {
+        height: 46px;
+        margin-top: 52px;
+        line-height: 46px;
+        background: #f1ead8; }
+        header .cover .welcome .come .weibo div {
+          width: 40px;
+          height: 30px;
+          background: url("../images/xuebi.png") -60px -70px; }
+      header .cover .welcome .come .qq {
+        height: 46px;
+        line-height: 46px;
+        margin: 20px 0px 42px; }
+        header .cover .welcome .come .qq div {
+          width: 52px;
+          height: 52px;
+          background: url("../images/xuebi.png"); }
+      header .cover .welcome .come .or {
+        font-size: 25px;
+        text-align: center; }
+      header .cover .welcome .come input {
+        width: 523px;
+        height: 41px;
+        margin-bottom: 15px; }
+      header .cover .welcome .come .email, header .cover .welcome .come .password {
+        height: 35px;
+        line-height: 35px;
+        text-align: left; }
+      header .cover .welcome .come .denglu {
+        height: 50px;
+        background: #c4a9b8;
+        text-align: center;
+        color: white;
+        margin-bottom: 15px;
+        font-size: 20.83px; }
+      header .cover .welcome .come .forget {
+        height: 40px;
+        font-size: 16.67px;
+        text-align: center; }
+    header .cover .welcome .regist {
+      height: 55px;
+      background: black;
+      line-height: 55px;
+      color: white;
+      margin-top: 15px;
+      text-align: center; }
+      header .cover .welcome .regist a {
+        text-decoration: underline; }

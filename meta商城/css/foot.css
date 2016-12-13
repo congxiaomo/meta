@@ -1,0 +1,33 @@
+footer {
+  height: 247px;
+  color: #989898;
+  border-top: 1px solid #b2b1b1; }
+  footer .box {
+    width: 1347px;
+    height: 247px;
+    margin: 0px auto; }
+    footer .box .item {
+      width: 410px;
+      height: 138px;
+      font-size: 14px;
+      margin: 32px auto 0px; }
+      footer .box .item .help {
+        width: 58px;
+        float: left;
+        margin-right: 118px; }
+        footer .box .item .help ul li {
+          height: 15px;
+          margin-top: 15px; }
+      footer .box .item .desc {
+        width: 58px;
+        float: left;
+        margin-right: 118px; }
+        footer .box .item .desc ul li {
+          height: 15px;
+          margin-top: 15px; }
+      footer .box .item .socal {
+        width: 58px;
+        float: left; }
+        footer .box .item .socal ul li {
+          height: 15px;
+          margin-top: 15px; }
