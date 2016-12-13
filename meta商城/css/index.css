@@ -468,17 +468,17 @@ ul, ol {
       position: absolute;
       transition: all 0.5s; }
     .lunbo ul li:nth-child(1) {
-      background: yellow; }
+      background: lightgray; }
     .lunbo ul li:nth-child(2) {
-      background: blue; }
+      background: lightpink; }
     .lunbo ul li:nth-child(3) {
-      background: green; }
+      background: lightpink; }
   .lunbo ol {
     position: absolute; }
     .lunbo ol li {
       width: 15px;
       height: 15px;
-      background: lightgray;
+      background: gray;
       float: left;
       border-radius: 50%;
       margin-right: 10px; }
